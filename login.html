@@ -8,19 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<script defer src="login.js"></script>
 </head>
 <body>
     <!-- <img src="image/background.jpg" class="img1" alt="..."> -->
     <div class="container">
         <div class="login">
-            <form action="" class="action">
+            <form action="" class="action" id="action">
                 <h1>Guider</h1>
                 <div class="labelling">
                     <!-- <label for="">Email</label> -->
-                    <input class="email" type="text" placeholder="EMAIL">
+                    <input class="email" type="text" placeholder="EMAIL" id="email" required>
                     <!-- <label for="">Password</label> -->
-                    <input class="pass" type="Password" placeholder="PASSWORD">
-                    <button class="log_in"><a class="logins " href="home_after.html">Sign In</a></button>
+                    <input class="pass" type="Password" placeholder="PASSWORD" id="pass" required>
+                    <button type="submit" class="log_in"><a class="logins " href="home_after.html">Sign In</a></button>
                     <div class="text">
                         <p class="t1">Forget Password? |</p>
                         <a class="log" href="register.html">Create Account</a>
