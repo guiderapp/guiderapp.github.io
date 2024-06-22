@@ -106,6 +106,10 @@ button .log_in{
     text-decoration: none;
     color: black;
 }
+.logins{
+    text-decoration: none;
+    color: white;
+}
 .img1{
     width: 100%;
     /* display: grid; */
